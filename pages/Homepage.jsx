@@ -5,7 +5,9 @@ const Homepage = () => {
   return (
     <>
     <Layout>
-        Homepage
+        <div className='flex w-[30rem] justify-center'>
+            Homepage
+        </div>
     </Layout>
     </>
   )
