@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../src/components/Layout'
 import './Addproducts.css'
+import { image } from '../src/assets'
 
 const Addproducts = () => {
   return (
@@ -16,6 +17,7 @@ const Addproducts = () => {
         <div className='form0'>
         <input
         type='image'
+        src={image}
         className='input0'
         placeholder='Upload an image'
         />    
